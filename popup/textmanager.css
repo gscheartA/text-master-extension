@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+}
+div#container{
+    width:300px;
+}
+div#title{
+    height:50px;
+    text-align:center;
+    line-height:50px;
+    font-size:26px;
+    border-bottom: 2px solid pink;
+    background-color: papayawhip;
+}
+div#content{
+    height:300px;
+    background-color: lavender;
+    overflow-y: auto;
+}
+div#content.none{
+    text-align:center;
+    line-height:200px;
+    font-size:22px;
+    font-weight:1000;
+}
+div#footer{
+    height:50px;
+    display: flex;
+}
+#footer div{
+    width:25%;
+    text-align:center;
+    line-height:50px;
+}
+#footer input{
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    font-weight:600;
+}
+#footer input:hover{
+    cursor: pointer;
+}
+#btn_clear{
+    background-color: turquoise;
+}
+#btn_clear:active{
+    background-color: royalblue;
+}
+#btn_import{
+    background-color: yellowgreen;
+}
+#btn_import:active{
+    background-color: forestgreen;
+}
+#btn_export{
+    background-color: thistle;
+}
+#btn_export:active{
+    background-color: orangered;
+}
+#btn_download{
+    background-color: orange;
+}
+#btn_download:active{
+    background-color: tomato;
+}
+div#content ul{
+    text-decoration: none;
+}
+div#content ul .firstline{
+    display: flex;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+div#content ul{
+    font-size:16px;
+    font-weight:600;
+}
+div#content ul .title{
+    font-size:20px;
+    font-weight:600;
+    width:50%;
+    text-align:center;
+    line-height:30px;
+}
+div#content ul .control{
+    font-size:20px;
+    font-weight:600;
+    width:50%;
+    text-align:center;
+    line-height:30px;
+}
+div#content ul .textline{
+    display: flex;
+    height: 24px;
+}
+div#content ul .text{
+    width: 50%;
+    text-align: center;
+    line-height: 24px;
+    font-weight:300;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div#content ul .buttoncontainer{
+    width:50%;
+    text-align:center;
+}
+div#content ul .buttoncontainer .button_copy{
+    margin-left:5px;
+    margin-right:5px;
+}

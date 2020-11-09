@@ -1,0 +1,51 @@
+{
+  "name": "TextSelectManager",
+  "description": "Clever manager for your selected text in html",
+  "version": "0.1.01",
+  "browser_action": {
+    "default_popup": "popup/popup.html"
+  },
+  "commands": {
+    "save_key": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Q"
+      },
+      "description": "revoke save API"
+    },
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+A"
+      }
+    }
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    {
+      "fileSystem": [
+        "write"
+      ]
+    },
+    "activeTab",
+    "downloads",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "content_scripts": [
+    {
+      "js": [
+        "jquery-3.1.1.min.js",
+        "js/content.js"
+      ],
+      "matches": [
+        "*://*/*"
+      ]
+    }
+  ],
+  "background": {
+    "page": "background.html"
+  },
+  "manifest_version": 2
+}

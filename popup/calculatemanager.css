@@ -1,0 +1,39 @@
+#calculatemanager{
+    height:350px;
+}
+#autocalculator{
+    height:180px;
+    background-color: floralwhite;
+    text-align: center;
+    padding-top:10px;
+}
+#autocalculatorhead{
+    font-size: 18px;
+    font-weight: 600;
+}
+#textcalculator{
+    height:150px;
+    background-color: ghostwhite;
+}
+#textcalculatorhead{
+    font-size: 18px;
+    font-weight: 600;
+}
+#textcalculatorbody{
+    text-align: center;
+    padding-top: 20px;
+}
+#textcalculatorresultarea{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 8px;
+    font-size: 14px;
+}
+#textcalculatortext{
+    display: inline-block;
+}
+#textcalculatorresult{
+    margin-left: 10px;
+    display: inline-block;
+    font-size: 16px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="textmanager.css">
+  <link rel="stylesheet" href="calculatemanager.css">
+  <link rel="stylesheet" href="slidearea.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="title">Text Master</div>
+    <div id="textmanager">
+      <div id="content"></div>
+      <div id="footer">
+        <div id="clear">
+          <input type="button" value="Clear" id="btn_clear" />
+        </div>
+        <div id="import">
+          <input type="button" value="load" id="btn_import" />
+        </div>
+        <div id="export">
+          <input type="button" value="save" id="btn_export" />
+        </div>
+        <div id="download">
+          <input type="button" value="download" id="btn_download" />
+        </div>
+      </div>
+    </div>
+    <div id="calculatemanager" style="display:none">
+      <div id="autocalculator">
+        <div id="autocalculatorhead">Text Calculator</div>
+        <div id="autocalculatorbody"></div>
+      </div>
+      <div id="textcalculator">
+        <div id="textcalculatorhead">Please input your calculated strings</div>
+        <div id="textcalculatorbody">
+          <textarea id="textcalculatorinput" cols="30" rows="3"></textarea>
+          <br />
+          <div id="textcalculatorresultarea">
+            <span id="textcalculatortext">Calculation results</span>
+            <br />
+            <span id="textcalculatorresult"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="changearea">
+      <div id="wordarea">
+        <div id="textmanagerbar" class="selected">Text Manager</div>
+        <div id="calculatemanagerbar">Text Calculator</div>
+      </div>
+      <div id="slidebar">
+        <div id="slide" class="first"></div>
+      </div>
+    </div>
+  </div>
+  <script src="textmanager.js"></script>
+  <script src="calculatemanager.js"></script>
+  <script src="../js/calculator.js"></script>
+  <script src="slidebar.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+#slidebar{
+    margin-bottom:10px;
+    border-bottom:2px solid whitesmoke;
+    height:3px;
+}
+#slide{
+    width:50%;
+    background-color: cornflowerblue;
+    height:3px;
+}
+#wordarea{
+    display:flex;
+    font-size:16px;
+    color: cadetblue;
+}
+#wordarea .selected{
+    color: blue;
+}
+#textmanagerbar{
+    width:50%;
+    margin-bottom:5px;
+    text-align: center;
+    transition: all 1s;
+}
+#textmanagerbar:hover{
+    color: blue;
+    cursor:pointer;
+}
+#calculatemanagerbar{
+    width:50%;
+    margin-bottom:5px;
+    text-align: center;
+    transition: all 1s;
+}
+#calculatemanagerbar:hover{
+    color: blue;
+    cursor:pointer;
+}
+#slide{
+    transition: all 0.7s;
+}
+#slide{
+    position: relative;
+}
+#slidebar .first{
+    left: 0px;
+}
+#slidebar .second{
+    left: 150px;
+}

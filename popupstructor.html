@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div#container {
+      width: 300px;
+    }
+
+    div#title {
+      height: 50px;
+      background-color: green;
+      text-align: center;
+      line-height: 50px;
+      font-size: 26px;
+    }
+
+    div#content {
+      height: 300px;
+      background-color: blue;
+    }
+
+    div#footer {
+      height: 50px;
+      background-color: red;
+      display: flex;
+    }
+
+    #footer div {
+      width: 33%;
+      text-align: center;
+      line-height: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div id="title">DBC's Text Manager</div>
+    <div id="textmanager">
+      <div id="content">Content</div>
+      <div id="footer">
+        <div id="clear">
+          <input type="button" value="清空" id="btn_clear" />
+        </div>
+        <div id="import">
+          <input type="button" value="存储" id="btn_import" />
+        </div>
+        <div id="export">
+          <input type="button" value="导出" id="btn_export" />
+        </div>
+      </div>
+    </div>
+    <div id="searchManager"></div>
+  </div>
+</body>
+
+</html>

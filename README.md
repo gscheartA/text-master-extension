@@ -23,3 +23,5 @@ select some string in webpage and press Ctrl+Shift+Q, then confirm the control. 
 * Input a string of mathematical characters in input area, such as 10+(2.5/4-6).
 
 * The result will be shown in the Calculation results area(to four decimal places)
+
+
